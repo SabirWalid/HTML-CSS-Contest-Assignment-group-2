@@ -1,0 +1,39 @@
+h1 {
+    text-align: center;
+    font-size: 50px;
+    text-emphasis-color: black;
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:palevioletred;
+}
+
+.navbar {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-items: right;
+    justify-content: right;
+    text-align: center;
+}
+
+.navbar li {
+    margin-right: 10px;
+    tab-size: 0caption;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: black;
+}
+
+div, img {
+    border-image-width: auto;
+    border-radius: 0%;
+    box-sizing: border-box;
+}
