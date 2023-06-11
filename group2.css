@@ -32,8 +32,13 @@ body {
     color: black;
 }
 
-div, img {
-    border-image-width: auto;
-    border-radius: 0%;
-    box-sizing: border-box;
+.rounded-image {
+    border-radius: 50%;
+}
+
+.member img {
+    display: flex;
+    justify-content: center;
+    width: 150px;
+    height: 150px;
 }
