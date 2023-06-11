@@ -9,7 +9,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
-    background-color:palevioletred;
+    background-color:blue;
     margin-left: 0px;
     max-width: fit-content;
     margin: auto;
@@ -39,9 +39,10 @@ body {
     border-radius: 50%;
 }
 
-.member img {
+.member h3, p {
     display: flex;
-    justify-content: center;
-    width: 150px;
-    height: 150px;
 }
+div img {
+    display: flex;
+}
+
