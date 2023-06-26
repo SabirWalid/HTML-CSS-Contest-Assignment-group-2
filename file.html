@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Product Info</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+  <ul id="product-list"></ul>
+  <script>
+    fetch('https://api.jsonserve.com/gh56P6')
+    .then(response => response.json())
+    .then(data => {
+      $.each(data.products, function(index, product) {
+        $('#product-list').append('<li>' + product.name + ' - ' + product.price + '</li>');
+      });
+    });
+  </script>
+</body>
+</html>
